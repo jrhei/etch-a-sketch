@@ -1,31 +1,51 @@
+.first-section,
 .second-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1 1 0;
+    flex: 1 0 90%;
     border: solid black 1px;
+    padding: 50px;
 }
 #drawingArea{
     display: flex;
-    /*border: solid black;*/
+    border: solid black;
+    height: 960px;
+    width: 960px;
     
     
 }
 .yblock{
-    padding: 20px;
+    flex: 1 1 0;
     border: solid black 1px;
    
+}
+.xblock{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
 }
 body{
     display: flex;
     flex: 1 1 0;
 }
-.first-section{
-    flex: 1 1 0;
-    border: solid black 1px;
-}
 
+.first-section{
+    flex: 1 0 10%;    
+}
+#reset{
+    padding: 10px;
+    border-radius: 15px;
+    
+    
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0px;
+    flex: 1 1 1%
+}
 /*.yblock:hover{
     background-color: yellow;
 }*/
