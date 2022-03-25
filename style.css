@@ -3,14 +3,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 1 1 0;
+    border: solid black 1px;
 }
 #drawingArea{
     display: flex;
     /*border: solid black;*/
     
+    
 }
 .yblock{
-    padding: 15px;
-    border: solid black;
+    padding: 20px;
+    border: solid black 1px;
+   
+}
+body{
+    display: flex;
     flex: 1 1 0;
 }
+.first-section{
+    flex: 1 1 0;
+    border: solid black 1px;
+}
+
+/*.yblock:hover{
+    background-color: yellow;
+}*/
