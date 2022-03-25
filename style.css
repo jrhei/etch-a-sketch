@@ -1,0 +1,16 @@
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#drawingArea{
+    display: flex;
+    /*border: solid black;*/
+    
+}
+.yblock{
+    padding: 15px;
+    border: solid black;
+    flex: 1 1 0;
+}
