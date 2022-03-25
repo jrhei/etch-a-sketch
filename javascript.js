@@ -59,8 +59,20 @@ reset.addEventListener('click', function(e){
 function resetColor(block){
     block.style.cssText='background: white';
 }
+let count = 0;
 function changeColor(block){
-    block.style.cssText='background: red';
+    if ((count % 10) === 0){
+        block.style.cssText='background: black';
+    }
+    else{
+        let R = Math.floor((Math.random()* 256));
+        let G = Math.floor((Math.random()* 256));
+        let B = Math.floor((Math.random()* 256));
+        block.style.cssText='background: rgb(' + R + ',' + G + ',' + B + ')';
+        console.log('background: rgb(' + R + ',' + G + ',' + B + ')');
+    }
+    count++;
+    
 }
 function removeGrid(block){
     block.remove();
